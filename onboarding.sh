@@ -73,7 +73,7 @@ fi
 if $gam update group groupname@domain.com add member $EMAIL; then
     log_message "User $EMAIL added to group groupname@domain.com" "INFO"
 else
-    log_message "Error: Failed to add user $EMAIL to group confluence@mobilabsolutions.com." "ERROR"
+    log_message "Error: Failed to add user $EMAIL to group groupname@mobilabsolutions.com." "ERROR"
 fi
 
 if $gam update group groupname@domain.com add member $EMAIL; then
